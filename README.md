@@ -15,7 +15,15 @@ npm install -S @jswork/next-percentage
 ```js
 import '@jswork/next-percentage';
 
-//DOCS here!
+const res1 = nx.percentage(1, 3);
+const res2 = nx.percentage(2, 3);
+const res3 = nx.percentage(3, 3);
+const res4 = nx.percentage(4, 3);
+
+// '33.33'
+// '66.67'
+// '100'
+// '133.33'
 ```
 
 ## license
